@@ -1,0 +1,45 @@
+# git init
+
+## Overview
+
+The `git init` command is used to initialize a new Git repository. It creates a hidden `.git` directory that stores all the information required for Git to track and manage the project's history.
+
+---
+
+## Syntax
+
+```bash
+git init
+```
+
+---
+
+## What Happens After Running `git init`?
+
+- A hidden `.git` folder is created.
+- The current project becomes a Git repository.
+- Git is now ready to track changes.
+- No files are committed or tracked automatically.
+
+---
+
+## Important Notes
+
+- Running `git init` does **not** create the first commit.
+- Files remain **Untracked** until they are added using `git add`.
+- Running `git init` multiple times simply reinitializes the existing repository without deleting project history.
+
+---
+
+## Key Points
+
+- Creates a hidden `.git` directory.
+- Converts a normal folder into a Git repository.
+- Does not upload anything to GitHub.
+- Does not automatically track project files.
+
+---
+
+## My Understanding
+
+I learned that `git init` is the first command used to create a Git repository. It creates a hidden `.git` folder that stores the repository's history and configuration. However, files are not tracked automatically; they need to be added using `git add`.
